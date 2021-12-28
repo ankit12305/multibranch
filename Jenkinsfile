@@ -15,6 +15,7 @@ pipeline {
                 sh 'mkdir qa'
 
                sh 'mkdir prod'
+                sh 'mkdir branch1'
 
 
 

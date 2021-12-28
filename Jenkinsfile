@@ -6,9 +6,13 @@ pipeline {
             steps {
                 echo 'Hello World'
 
+                sh 'mkdir test'
+
+
                 sh 'mkdir qa'
 
                sh 'mkdir prod'
+
 
             }
         }

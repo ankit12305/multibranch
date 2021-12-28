@@ -16,6 +16,7 @@ pipeline {
 
                sh 'mkdir prod'
                 sh 'mkdir branch1'
+                sh 'mkdir d'
 
 
 
